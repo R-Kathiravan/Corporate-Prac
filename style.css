@@ -986,7 +986,7 @@ p.card-text {
     cursor: pointer;
     user-select: none;
     padding: 20px;
-    border: 1px solid;
+    border: 2px solid rgba(98, 98, 98, 0.544);
     border-radius: 50px;
 }
 
