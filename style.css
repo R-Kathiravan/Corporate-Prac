@@ -685,18 +685,6 @@ p.card-text {
     font-weight: 400;
 }
 
-/* .team .head-chips {
-    position: sticky;
-    top: 110px;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    z-index: 20;
-    left: 45%;
-    width: 120px;
-    z-index: 99;
-} */
-
 .team-marquee {
     width: 100%;
     overflow: hidden;
@@ -767,15 +755,17 @@ p.card-text {
 }
 
 .team-link {
-    font-size: 18px;
+    font-size: 20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 2px 6px;
     border-radius: 14px;
     transition: all 0.3s ease-out;
+    color: var(--clr-primary);
 }
 
 .team-link:hover {
-    color: var(--clr-accent);
+    color: var(--clr-primary-hover);
+    background-color: #2652331c;
 }
 
 .team-desc {
@@ -935,7 +925,10 @@ p.card-text {
 
 @media (max-width:478px) {
     .testimonial-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    .testimonial-content{
+        padding: 10px;
     }
 
     .avatar {
